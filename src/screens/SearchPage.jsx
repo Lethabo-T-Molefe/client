@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/SearchPage.css"; 
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";// Assuming you have styles for your page
+import NavBar from "../components/NavBar";
 
 const SearchPage = () => {
     const activitiesInTshwane = [
@@ -85,6 +86,9 @@ const SearchPage = () => {
   };
 
   return (
+    <>
+    <NavBar/>
+
     <div className="search-page">
       <header className="header">
         <div className="logo">Logo</div>
@@ -146,14 +150,8 @@ const SearchPage = () => {
           ))}
         </MapContainer>
       </div>
-
-      <footer className="footer">
-        <div className="footer-icon">Icon1</div>
-        <div className="footer-icon">Icon2</div>
-        <div className="footer-icon">Icon3</div>
-        <div className="footer-icon">Icon4</div>
-      </footer>
     </div>
+    </>
   );
 };
 

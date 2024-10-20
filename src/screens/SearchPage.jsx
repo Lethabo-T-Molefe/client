@@ -1,4 +1,9 @@
+import votreke from "../assets/vortreke.jpeg";
+import union from "../assets/union.jpeg";
+import groen from "../assets/groen.jpeg";
 import React from "react";
+import freedom from "../assets/freedom.jpeg";
+import reit from "../assets/reit.jpeg";
 import "../styles/SearchPage.css"; 
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";// Assuming you have styles for your page
@@ -8,70 +13,70 @@ const SearchPage = () => {
       {
         id: 1,
         name: "Voortrekker Monument",
-        image: "voortrekker-monument.jpg",
+        image: votreke,
         description: "A historical monument.",
         coordinates: { lat: -25.7765, lng: 28.1754 },
       },
       {
         id: 2,
         name: "Union Buildings",
-        image: "union-buildings.jpg",
+        image: union,
         description: "The official seat of the South African government.",
         coordinates: { lat: -25.7402, lng: 28.2123 },
       },
       {
         id: 3,
         name: "Freedom Park",
-        image: "freedom-park.jpg",
+        image: freedom,
         description: "A national heritage site.",
         coordinates: { lat: -25.7647, lng: 28.1928 },
       },
-      {
-        id: 4,
-        name: "Pretoria National Botanical Garden",
-        image: "botanical-garden.jpg",
-        description: "A 76-hectare botanical garden.",
-        coordinates: { lat: -25.7408, lng: 28.2702 },
-      },
-      {
-        id: 5,
-        name: "Loftus Versfeld Stadium",
-        image: "loftus.jpg",
-        description: "A multi-purpose stadium.",
-        coordinates: { lat: -25.7515, lng: 28.2224 },
-      },
+      // {
+      //   id: 4,
+      //   name: "Pretoria National Botanical Garden",
+      //   image: "botanical-garden.jpg",
+      //   description: "A 76-hectare botanical garden.",
+      //   coordinates: { lat: -25.7408, lng: 28.2702 },
+      // },
+      // {
+      //   id: 5,
+      //   name: "Loftus Versfeld Stadium",
+      //   image: "loftus.jpg",
+      //   description: "A multi-purpose stadium.",
+      //   coordinates: { lat: -25.7515, lng: 28.2224 },
+      // },
       {
         id: 6,
         name: "Rietvlei Nature Reserve",
-        image: "rietvlei.jpg",
+        image: reit,
         description: "A large urban nature reserve.",
         coordinates: { lat: -25.8825, lng: 28.2794 },
       },
-      {
-        id: 7,
-        name: "Moreleta Kloof Nature Reserve",
-        image: "moreleta-kloof.jpg",
-        description: "A nature reserve with scenic hiking trails.",
-        coordinates: { lat: -25.8298, lng: 28.2926 },
-      },
-      {
-        id: 8,
-        name: "Ditsong National Museum of Natural History",
-        image: "ditsong.jpg",
-        description: "A museum showcasing natural history exhibits.",
-        coordinates: { lat: -25.7471, lng: 28.1888 },
-      },
-      {
-        id: 9,
-        name: "Hazel Food Market",
-        image: "hazel-food-market.jpg",
-        description: "A popular food market.",
-        coordinates: { lat: -25.7707, lng: 28.2703 },
-      },
+      // {
+      //   id: 7,
+      //   name: "Moreleta Kloof Nature Reserve",
+      //   image: "moreleta-kloof.jpg",
+      //   description: "A nature reserve with scenic hiking trails.",
+      //   coordinates: { lat: -25.8298, lng: 28.2926 },
+      // },
+      // {
+      //   id: 8,
+      //   name: "Ditsong National Museum of Natural History",
+      //   image: "ditsong.jpg",
+      //   description: "A museum showcasing natural history exhibits.",
+      //   coordinates: { lat: -25.7471, lng: 28.1888 },
+      // },
+      // {
+      //   id: 9,
+      //   name: "Hazel Food Market",
+      //   image: "hazel-food-market.jpg",
+      //   description: "A popular food market.",
+      //   coordinates: { lat: -25.7707, lng: 28.2703 },
+      // },
       {
         id: 10,
         name: "Groenkloof Nature Reserve",
-        image: "groenkloof.jpg",
+        image: groen,
         description: "A nature reserve offering various activities.",
         coordinates: { lat: -25.7993, lng: 28.2088 },
       },
@@ -87,7 +92,7 @@ const SearchPage = () => {
   return (
     <div className="search-page">
       <header className="header">
-        <div className="logo">Logo</div>
+        <div className="logo">UbuntuXperience</div>
       </header>
 
       <div className="search-bar">

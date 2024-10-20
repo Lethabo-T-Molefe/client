@@ -15,7 +15,66 @@ const reviews = [
     rating: 5,
     description: "Absolutely fantastic!",
   },
-  // Add more reviews as needed
+  {
+    id: 3,
+    image: "/path/to/image3.jpg",
+    rating: 3,
+    description: "It was good, but could be improved.",
+  },
+  {
+    id: 4,
+    image: "/path/to/image4.jpg",
+    rating: 5,
+    description: "Had an amazing time!",
+  },
+  {
+    id: 5,
+    image: "/path/to/image5.jpg",
+    rating: 2,
+    description: "Not what I expected.",
+  },
+  {
+    id: 6,
+    image: "/path/to/image6.jpg",
+    rating: 4,
+    description: "Really enjoyed the atmosphere.",
+  },
+  {
+    id: 7,
+    image: "/path/to/image7.jpg",
+    rating: 5,
+    description: "The best event I've been to!",
+  },
+  {
+    id: 8,
+    image: "/path/to/image8.jpg",
+    rating: 3,
+    description: "Average experience.",
+  },
+  {
+    id: 9,
+    image: "/path/to/image9.jpg",
+    rating: 4,
+    description: "Well organized and fun.",
+  },
+  {
+    id: 10,
+    image: "/path/to/image10.jpg",
+    rating: 5,
+    description: "Incredible performances!",
+  },
+  {
+    id: 11,
+    image: "/path/to/image11.jpg",
+    rating: 4,
+    description: "Great venue, great people.",
+  },
+  {
+    id: 12,
+    image: "/path/to/image12.jpg",
+    rating: 5,
+    description: "Highly recommend this event!",
+  },
 ];
 
 const ReviewCard = ({ review }) => (

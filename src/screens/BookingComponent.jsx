@@ -155,9 +155,28 @@ const BookingComponent = () => {
               <p>Time: {event.Time}</p>
               <p>Location: {event.Location}</p>
               <p>Price: R{event.TicketPrice.toFixed(2)}</p>
-              <button onClick={() => setSelectedEvent(event)} >
+              <button
+                onClick={() => setSelectedEvent(event)}
+                style={{
+                  backgroundColor: "#007bff", // Button background color
+                  color: "#fff", // Text color
+                  padding: "10px 20px", // Padding
+                  border: "none", // Remove default border
+                  borderRadius: "5px", // Rounded corners
+                  fontSize: "16px", // Font size
+                  cursor: "pointer", // Cursor style on hover
+                  transition: "background-color 0.3s", // Transition effect for background color
+                }}
+                onMouseOver={(e) =>
+                  (e.currentTarget.style.backgroundColor = "#0056b3")
+                } // Darker blue on hover
+                onMouseOut={(e) =>
+                  (e.currentTarget.style.backgroundColor = "#007bff")
+                } // Original color when not hovering
+              >
                 Select Event
               </button>
+
               <br />
               <hr />
             </li>

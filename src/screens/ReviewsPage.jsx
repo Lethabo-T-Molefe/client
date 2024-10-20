@@ -1,7 +1,7 @@
 // src/components/ReviewsPage.js
 import React from "react";
 import '../styles/ReviewsPage.css';
-
+import NavBar from "../components/NavBar";
 const reviews = [
   {
     id: 1,
@@ -32,6 +32,7 @@ const ReviewCard = ({ review }) => (
 const ReviewsPage = () => {
   return (
     <div className="reviews-page">
+      <NavBar />
       <h2>Reviews</h2>
       {reviews.map((review) => (
         <ReviewCard key={review.id} review={review} />

@@ -1,0 +1,36 @@
+/* src/DatePicker.css */
+.date-picker-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.date-picker-page h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.react-calendar {
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.actions button {
+  background-color: #fff;
+  color: #00C851;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 5px;
+}

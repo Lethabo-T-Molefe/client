@@ -1,0 +1,26 @@
+/* src/components/VerifyPaymentPage.css */
+
+.verify-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #DFF2E1;
+}
+
+.verify-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.verify-button {
+  background-color: #00C851;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}

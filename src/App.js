@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import ReviewsPage from './screens/ReviewsPage';
+import ChatbotPage from './screens/ChatbotPage';
+import ChatInterface from './screens/ChatInterface';
+import DatePickerPage from './screens/DatePicker';
+import VerifyPaymentPage from './screens/VerifyPaymentPage';
+import CheckoutPage from './screens/CheckoutPage';
+import FirstPage from './screens/FirstPage';
+import MapPage from './screens/MapPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ChatbotPage/>
+    </>
   );
 }
 

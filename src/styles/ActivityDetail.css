@@ -1,0 +1,60 @@
+.activity-detail {
+  background-color: #d3f6c2;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url('logo-url-here');
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.ratings {
+  font-size: 20px;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.video-section img {
+  width: 90%;
+  border-radius: 15px;
+}
+
+.play-button {
+  position: absolute;
+  font-size: 30px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: #d3f6c2;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+}

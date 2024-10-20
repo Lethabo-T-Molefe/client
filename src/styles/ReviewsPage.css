@@ -1,0 +1,37 @@
+/* src/ReviewsPage.css */
+.reviews-page {
+  padding: 20px;
+}
+
+.reviews-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 15px;
+  color: #000;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.stars {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #ffbb33;
+}
+
+.review-card p {
+  font-size: 14px;
+}

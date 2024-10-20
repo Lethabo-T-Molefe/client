@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+/* src/App.css */
+.chatbot-page,
+.chat-interface,
+.date-picker-page,
+.reviews-page {
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chatbot-logo img {
+  width: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.message-bubble {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.message-bubble.user {
+  background-color: #d1ffd6;
+  align-self: flex-end;
+}
+
+.message-bubble.bot {
+  background-color: #f1f1f1;
+  align-self: flex-start;
+}
+
+.review-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.review-card img {
+  width: 100px;
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stars {
+  margin: 5px 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #00C851; /* Background green color */
+  color: #fff;
+  text-align: center;
+}
+
+/* Navigation (optional for demo) */
+.navigation {
+  margin-top: 20px;
+}
+
+.navigation button {
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigation button:hover {
+  background-color: #00796B;
+}
+
+/* Button Styling */
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }

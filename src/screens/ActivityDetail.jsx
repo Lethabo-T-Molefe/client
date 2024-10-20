@@ -1,9 +1,11 @@
 import React from "react";
 import "./ActivityDetail.css"; // For styles
+import NavBar from "../components/NavBar";
 
 const ActivityDetail = () => {
   return (
     <div className="activity-detail">
+      <NavBar/>
       <header className="header">
         <div className="logo">Logo</div>
         <div className="ratings">★★★★☆</div>

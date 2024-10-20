@@ -10,6 +10,7 @@ import CheckoutPage from './screens/CheckoutPage';
 import FirstPage from './screens/FirstPage';
 import MapPage from './screens/MapPage';
 import SearchPage from './screens/SearchPage';
+import BookingComponent from './screens/BookingComponent';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/checkout" element={<CheckoutPage />} />
           <Route path="/first-page" element={<FirstPage />} />
           <Route path="/map" element={<MapPage />} />
+          <Route path="/bookings" element={<BookingComponent/>} />
         </Routes>
       </Router>
     </>

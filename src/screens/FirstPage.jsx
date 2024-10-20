@@ -1,6 +1,7 @@
 // src/components/FirstPage.js
 import React from "react";
 import "../styles/FirstPage.css";
+import NavBar from "../components/NavBar";
 
 const FirstPage = () => {
   const items = [
@@ -13,6 +14,7 @@ const FirstPage = () => {
 
   return (
     <div className="first-page">
+      <NavBar/>
       <header>
         <div className="profile">
           <img src="path/to/profile" alt="profile" className="profile-img" />

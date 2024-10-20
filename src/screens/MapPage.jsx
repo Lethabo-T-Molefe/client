@@ -1,9 +1,11 @@
 import React from "react";
 import "../styles/MapPage.css"; // For styles
+import NavBar from "../components/NavBar";
 
 const MapPage = () => {
   return (
     <div className="map-page">
+      <NavBar/>
       <header className="header">
         <div className="logo">Logo</div>
         <div className="ratings">★★★★☆</div>

@@ -1,6 +1,7 @@
 // src/components/ChatInterface.js
 import React, { useState } from "react";
 import "../styles/ChatInterface.css";
+import NavBar from "../components/NavBar";
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState([
@@ -21,6 +22,7 @@ const ChatInterface = () => {
 
   return (
     <div className="chat-interface">
+      <NavBar/>
       <div className="chat-box">
         {messages.map((msg) => (
           <div key={msg.id} className={`message-bubble ${msg.sender}`}>

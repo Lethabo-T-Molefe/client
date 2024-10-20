@@ -144,9 +144,8 @@ const dummyEvents = [
   };
 
   return (
-    
     <div className="booking-page">
-      
+      <NavBar />
       <h1>Book a Facility in Tshwane</h1>
       <div className="event-list">
         <h2>Available Events</h2>
@@ -159,7 +158,7 @@ const dummyEvents = [
               <p>Time: {event.Time}</p>
               <p>Location: {event.Location}</p>
               <p>Price: R{event.TicketPrice.toFixed(2)}</p>
-              <button onClick={() => setSelectedEvent(event)}  >
+              <button onClick={() => setSelectedEvent(event)}>
                 Select Event
               </button>
             </li>
@@ -179,7 +178,9 @@ const dummyEvents = [
             />
           </label>
           <div className="actions">
-            <button onClick={handleBooking} style={{}}>Book Now</button>
+            <button onClick={handleBooking} style={{}}>
+              Book Now
+            </button>
           </div>
         </div>
       )}

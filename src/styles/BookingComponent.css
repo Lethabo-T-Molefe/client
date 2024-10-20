@@ -6,6 +6,8 @@
   align-items: center;
   height: 100vh;
   padding: 20px;
+  margin-bottom: 0;
+  padding-top: 400px;
 }
 
 .booking-page h1 {
@@ -32,6 +34,7 @@
   margin-bottom: 20px;
   list-style: none;
   color: black;
+  border-color: #00c851;
 }
 
 .actions {

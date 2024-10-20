@@ -1,10 +1,12 @@
 // src/components/ChatbotPage.js
 import React from "react";
 import "../styles/ChatbotPage.css";
+import NavBar from "../components/NavBar";
 
 const ChatbotPage = () => {
   return (
     <div className="chatbot-page">
+      <NavBar/>
       <div className="chatbot-logo">
         <img src="/path/to/chatbot-logo.png" alt="Chatbot" />
       </div>

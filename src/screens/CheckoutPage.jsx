@@ -1,10 +1,12 @@
 // src/components/CheckoutPage.js
 import React from "react";
 import "../styles/CheckoutPage.css";
+import NavBar from "../components/NavBar";
 
 const CheckoutPage = () => {
   return (
     <div className="checkout-page">
+      <NavBar/>
       <header>
         <div className="profile">
           <img src="path/to/profile" alt="profile" className="profile-img" />
